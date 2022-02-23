@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.sketchlink{
+  position:absolute;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  top:  320px;
+  left: 240px;
+  font-size:70px;
+  text-decoration: #EE2B72 dotted underline overline;
+  color: blue;
+}
+
+.sketchlink:hover{color: yellow}
+
+.bounce{
+  position:absolute;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  color:indigo;
+  text-decoration: green wavy underline;
+}
+.bounce:hover{color:brown}
+
+.threelink{
+  position:absolute;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:60px;
+  top:40px;
+  left: 115px;
+  color:orange;
+  text-decoration:orangered dashed underline overline;
+}
+
+.threelink:hover{color:aliceblue;}
+
+.twolink{
+  position: absolute;
+  font-size:80px;
+  top: 150px;
+  left: 30px;
+  font-family:monospace;
+  color:red;
+  text-decoration:aqua line-through underline overline 4pt;
+
+}
+
+.twolink:hover{color:blanchedalmond}
